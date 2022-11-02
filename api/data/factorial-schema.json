@@ -1,0 +1,12 @@
+{"success": {
+    "type" : "object",
+    "properties": {
+        "answer": {
+            "type" : "integer"
+        }
+    },
+    "required" : [
+        "answer"
+    ]
+ }
+}

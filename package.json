@@ -1,0 +1,21 @@
+{
+  "name": "test-mocha-chai",
+  "version": "1.0.0",
+  "description": "A project to train myself about mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --reporter mochawesome",
+    "reports": "open 'reports/mochawesome/mochawesome.html'"
+  },
+  "author": "gladhtput",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.3",
+    "chai-http": "^4.3.0",
+    "chai-json-schema": "^1.5.1",
+    "dotenv": "^16.0.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.0.0",
+    "supertest": "^6.3.0"
+  }
+}
